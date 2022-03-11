@@ -1,0 +1,24 @@
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: rgb(1, 1, 29);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo > h2 {
+    color: #61DAFB;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.header > .title {
+    color: white;
+    font-weight: 500;
+}

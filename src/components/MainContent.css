@@ -1,0 +1,33 @@
+main {
+    color: white;
+    background-color: rgb(39, 42, 56);
+    height: calc(100vh - 5rem);
+    background-image: url('../logo_grey.svg');
+    background-repeat: no-repeat;
+    background-position-x: 50vw;
+    background-position-y: center;
+}
+
+main > h1 {
+    text-align: center;
+    padding: 1rem;
+}
+
+main > ul {
+    list-style-position: inside;
+    margin: 0;
+    padding: 1rem 2rem;
+    list-style: none;
+}
+
+main > ul > li {
+    margin: .5rem 0;
+}
+
+main > ul > li::before {
+    content: "•";
+    font-size: 1rem;
+    font-weight: bolder; 
+    color: #61DAFB;
+    margin-right: 1rem;
+}
